@@ -8,7 +8,7 @@ import streamlit as st
 from models.chatbot import render_chatbot
 
 # Project paths
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent
 
 DATA_PATH = BASE_DIR / "data" / "ETP_4_New_Data_Accidents.csv"
 MODEL_PATH = BASE_DIR / "models" / "severity_model.joblib"
