@@ -1,0 +1,22 @@
+{
+  "target": "Accident_Severity_C",
+  "features": [
+    "Day_of_Week",
+    "Accident_Month",
+    "Accident_DayOfWeek",
+    "Accident_Hour",
+    "Accident_Location_A",
+    "Accident_Location_A_Chainage_km",
+    "Accident_Location_A_Chainage_km_RoadSide",
+    "Road_Feature_E",
+    "Road_Condition_F",
+    "Weather_Conditions_H"
+  ],
+  "severity_classes": [
+    "1",
+    "2",
+    "3",
+    "4"
+  ],
+  "test_accuracy": 0.374845869297164
+}
