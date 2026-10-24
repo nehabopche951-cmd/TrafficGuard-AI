@@ -5,7 +5,7 @@ import json
 import joblib
 import pandas as pd
 import streamlit as st
-from chatbot import render_chatbot
+from models.chatbot import render_chatbot
 
 # Project paths
 BASE_DIR = Path(__file__).resolve().parent.parent
